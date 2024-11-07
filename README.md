@@ -14,3 +14,8 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 3. Once finished, run the command `pyinstaller --onefile main.py`
 4. Once finished, open 'dist' folder
 5. You can now use `main.exe` to run the program
+
+# Contact
+- You can contact me on these socials for suggestions/bugs:
+  - Discord: @dreidels
+  - Telegram: @hanukkahween
