@@ -20,12 +20,12 @@ Checks the user's PC for common Roblox cheating utilities (script executors, AHK
 - Gets & saves list of used Roblox accounts
 
 # Usage
-### Running from releases
+### Running from releases - useful for distributing to users you want to check
 1. Download the latest `pc-checker.exe` from the [releases page](https://github.com/6ce/eau-pc-checker/releases/)
 2. Move it to it's own folder (**OPTIONAL**)
 3. Run the `pc-checker.exe` file
 
-### Running from source
+### Running from source - useful for testing/modifying codebase
 1. Install [Python](https://python.org) from the web
 2. Install the [repository](https://github.com/6ce/eau-pc-checker/archive/refs/heads/main.zip) to a ZIP
 3. Extract it to it's own folder
