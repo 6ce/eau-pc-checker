@@ -53,20 +53,23 @@ def bloxstrapTempFolderExists() -> bool:
 def getLogitechScripts() -> list[dict]:
     """Returns a list of Logitech G Hub scripts"""
     path = f"C:\\Users\\{os.getlogin()}\\AppData\\Local\\LGHUB\\scripts"
-    scripts = []
-    for scriptId in os.listdir(path):
-        scriptPath = f"{path}\\{scriptId}\\script.lua"
-        scriptData = ""
-        try:
-            with open(scriptPath, "r") as file:
-                scriptData = file.read()
-        except Exception as err:
-            scriptData = f"Failed to read script: '{scriptPath}': {err}"
-        scripts.append({
-            "script_id": scriptId,
-            "script_data": scriptData
-        })
-    return scripts
+    try:
+        scripts = []
+        for scriptId in os.listdir(path):
+            scriptPath = f"{path}\\{scriptId}\\script.lua"
+            scriptData = ""
+            try:
+                with open(scriptPath, "r") as file:
+                    scriptData = file.read()
+            except Exception as err:
+                scriptData = f"Failed to read script: '{scriptPath}': {err}"
+            scripts.append({
+                "script_id": scriptId,
+                "script_data": scriptData
+            })
+        return scripts
+    except:
+        return []
         
 
 def getBloxstrapReferences(fileName: str) -> list[str]:
