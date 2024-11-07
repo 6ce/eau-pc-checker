@@ -5,20 +5,6 @@ Checks the user's PC for common Roblox cheating utilities (script executors, AHK
 - Source Usage Tutorial: https://streamable.com/k1ifc1
 - Building Tutorial: https://streamable.com/nhe7rn
 
-# Features
-- Checks if Bloxstrap folder exists
-  - Saves user's FFlags to a JSON file
-  - Gets references of Bloxstrap in logs (times the user used it when playing Roblox)
-- Checks for macro usage programs:
-  - AutoHotkey
-  - Logitech G Hub
-    - Saves G Hub LUA scripts to a JSON file
-  - Razer Synapse
-- Checks for script executors
-  - Solara
-  - Wave
-- Gets & saves list of used Roblox accounts
-
 # Usage
 ### Running from releases - useful for distributing to users you want to check
 1. Download the latest `pc-checker.exe` from the [releases page](https://github.com/6ce/eau-pc-checker/releases/)
@@ -38,6 +24,20 @@ Checks the user's PC for common Roblox cheating utilities (script executors, AHK
 3. Once finished, run the command `pyinstaller --onefile main.py`
 4. Once finished, open 'dist' folder
 5. You can now use `main.exe` to run the program
+
+# Features
+- Checks if Bloxstrap folder exists
+  - Saves user's FFlags to a JSON file
+  - Gets references of Bloxstrap in logs (times the user used it when playing Roblox)
+- Checks for macro usage programs:
+  - AutoHotkey
+  - Logitech G Hub
+    - Saves G Hub LUA scripts to a JSON file
+  - Razer Synapse
+- Checks for script executors
+  - Solara
+  - Wave
+- Gets & saves list of used Roblox accounts
 
 # Contact
 - You can contact me on these socials for suggestions/bugs:
