@@ -1,9 +1,9 @@
 # EAU PC-Checker
 Checks the user's PC for common Roblox cheating utilities (script executors, AHK, Bloxstrap, etc..)
 
-- Release Usage Tutorial: https://streamable.com/ahv45h
-- Source Usage Tutorial: https://streamable.com/k1ifc1
-- Building Tutorial: https://streamable.com/nhe7rn
+- Release Usage Tutorial: https://files.catbox.moe/5dczws.mp4
+- Source Usage Tutorial: https://files.catbox.moe/4qv8rf.mp4
+- Building Tutorial: https://files.catbox.moe/dh3qu1.mp4
 
 # Usage
 ### Running from releases - useful for distributing to users you want to check
