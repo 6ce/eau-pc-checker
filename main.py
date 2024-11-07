@@ -80,7 +80,7 @@ def getBloxstrapReferences(fileName: str) -> list[str]:
     except:
         return []
 
-def isBloxstrapInLogs() -> tuple[list[dict], str]:
+def isBloxstrapInLogs() -> tuple[list[dict], dict]:
     """Returns whether or not Bloxstrap is referenced at all in Roblox logs, and the most recent log"""
     path = f"C:\\Users\\{os.getlogin()}\\AppData\\Local\\Roblox\\logs"
 
@@ -102,7 +102,10 @@ def isBloxstrapInLogs() -> tuple[list[dict], str]:
                 "date": modifiedDate
             })
             
-    return (logsWithBloxstrap, logsWithBloxstrap[-1])
+    if len(logsWithBloxstrap) > 0:
+        return (logsWithBloxstrap, logsWithBloxstrap[-1])
+    
+    return ([], {})
 
 def getUsedAccountsInLogs() -> list[dict]:
     """Returns a list of used accounts in Roblox logs"""
@@ -182,8 +185,9 @@ def main():
 
         output("Getting Bloxstrap references in Roblox logs..")
         logResults, mostRecent = isBloxstrapInLogs()
-        output(f"There are {len(logResults)} instances of Bloxstrap in the user's Roblox logs (C:\\Users\\{os.getlogin()}\\AppData\\Local\\Roblox\\logs)")
-        output(f"The most recent log was at: {mostRecent["date"]}")
+        if len(logResults) > 0:
+            output(f"There are {len(logResults)} instances of Bloxstrap in the user's Roblox logs (C:\\Users\\{os.getlogin()}\\AppData\\Local\\Roblox\\logs)")
+            output(f"The most recent log was at: {mostRecent["date"]}")
 
     ###### END BLOXSTRAP ######
 
