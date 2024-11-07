@@ -16,7 +16,7 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 - Checks for script executors
   - Solara
   - Wave
-- Gets list of used Roblox accounts
+- Gets & saves list of used Roblox accounts
 
 # Usage
 1. Install [Python](https://python.org) from the web
