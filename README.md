@@ -44,4 +44,4 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
   - Telegram: @hanukkahween
 
 # Disclaimer
-It is possible for users to bypass this by 
+It is possible for users to bypass this by reading the source code and taking actions to prevent detection
