@@ -20,7 +20,7 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 
 # Usage
 ### Running from releases
-1. Download the latest `pc-checker.exe` from the [releases tab](https://github.com/6ce/eau-pc-checker/releases/)
+1. Download the latest `pc-checker.exe` from the [releases page](https://github.com/6ce/eau-pc-checker/releases/)
 2. Move it to it's own folder (**OPTIONAL**)
 3. Run the `pc-checker.exe` file
 
