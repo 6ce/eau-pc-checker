@@ -19,6 +19,12 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 - Gets & saves list of used Roblox accounts
 
 # Usage
+### Running from releases
+1. Download the latest `pc-checker.exe` from the [releases tab](https://github.com/6ce/eau-pc-checker/releases/)
+2. Move it to it's own folder (**OPTIONAL**)
+3. Run the `pc-checker.exe` file
+
+### Running from source
 1. Install [Python](https://python.org) from the web
 2. Install the [repository](https://github.com/6ce/eau-pc-checker/archive/refs/heads/main.zip) to a ZIP
 3. Extract it to it's own folder
@@ -36,3 +42,6 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 - You can contact me on these socials for suggestions/bugs:
   - Discord: @dreidels
   - Telegram: @hanukkahween
+
+# Disclaimer
+It is possible for users to bypass this by 
