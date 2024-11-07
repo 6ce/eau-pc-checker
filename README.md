@@ -9,7 +9,7 @@ Checks the user's pc for common roblox cheating utilities (executors, ahk, bloxs
 5. Run the command `python main.py`
 
 # Building
-1. Follow [usage steps]() until step 4
+1. Follow [usage steps](https://github.com/6ce/eau-pc-checker/blob/main/README.md#usage) until step 4
 2. Run the command `pip install pyinstaller`
 3. Once finished, run the command `pyinstaller --onefile main.py`
 4. Once finished, open 'dist' folder
