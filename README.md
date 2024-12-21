@@ -41,7 +41,6 @@ Checks the user's PC for common Roblox cheating utilities (script executors, AHK
 
 # Contact
 - You can contact me on these socials for suggestions/bugs:
-  - Discord: @obfuscatin
   - Telegram: @hanukkahween
 
 # Disclaimer
